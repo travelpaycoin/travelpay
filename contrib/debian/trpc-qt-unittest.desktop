@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Trpc-Qt Unit test
+Comment=Trpc P2P gaming related cryptocurrency - UNITTEST
+Comment[fr]=Trpc unittest, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Trpc unittest, eşten eşe kriptografik sanal para birimi
+Exec=trpc-qt --unittest %u
+Terminal=false
+Type=Application
+Icon=trpc128-unittest
+MimeType=x-scheme-handler/trpc;
+Categories=Office;Finance;

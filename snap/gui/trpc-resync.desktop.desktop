@@ -1,0 +1,15 @@
+# http://standards.freedesktop.org/desktop-entry-spec/desktop-entry-spec-1.0.html
+
+[Desktop Entry]
+Type=Application
+Version=3.0.0
+Encoding=UTF-8
+Name=Trpc Qt (resync)
+Icon=${SNAP}/trpc128.png
+MimeType=x-scheme-handler/trpc;
+Exec=trpc %u --resync
+Terminal=false
+Categories=Office;Finance;Cryptocurrency;
+Comment=🗺️Trpc Digital Currency QT (resync main net) 👯👯 👛 (by 🐼CEVAP🐼) CE source code (Community Edition)
+Keywords=internet;trpc;main;qt;crypto;currency;snap;snapcraft;resync;
+Name[de_DE]=trpc-resync.desktop.desktop

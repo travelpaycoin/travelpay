@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Trpc-Qt Regtest
+Comment=Trpc P2P gaming related cryptocurrency - REGTEST
+Comment[fr]=Trpc regtest, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Trpc regtest, eşten eşe kriptografik sanal para birimi
+Exec=trpc-qt --regtest %u
+Terminal=false
+Type=Application
+Icon=trpc128-regtest
+MimeType=x-scheme-handler/trpc;
+Categories=Office;Finance;

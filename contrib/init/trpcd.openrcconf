@@ -1,0 +1,26 @@
+# /etc/conf.d/trpcd: config file for /etc/init.d/trpcd
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/trpc/Travelpaycoin.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/trpcd"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/trpcd.pid"
+
+# Where to write trpcd data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/trpcd"
+
+# User and group to own trpcd process
+#BITCOIND_USER="trpc"
+#BITCOIND_GROUP="trpc"
+
+# Path to trpcd executable
+#BITCOIND_BIN="/usr/bin/trpcd"
+
+# Nice value to run trpcd under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""

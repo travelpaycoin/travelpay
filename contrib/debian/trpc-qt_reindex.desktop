@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Trpc-Qt (Reindex)
+Comment=Trpc P2P gaming related cryptocurrency
+Comment[fr]=Trpc, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Trpc, eşten eşe kriptografik sanal para birimi
+Exec=trpc-qt --reindex %u
+Terminal=false
+Type=Application
+Icon=trpc128
+MimeType=x-scheme-handler/trpc;
+Categories=Office;Finance;

@@ -1,0 +1,15 @@
+# http://standards.freedesktop.org/desktop-entry-spec/desktop-entry-spec-1.0.html
+
+[Desktop Entry]
+Type=Application
+Version=3.0.0
+Encoding=UTF-8
+Name=Trpc Daemon (resync)
+Icon=${SNAP}/trpcd128.png
+MimeType=x-scheme-handler/trpc;
+Exec=trpcd %u --resync
+Terminal=true
+Categories=Office;Finance;Cryptocurrency;
+Comment=🗺️Trpc Digital Currency Daemon (resync) 👯👯 👛 (by 🐼CEVAP🐼) CE source code (Community Edition)
+Keywords=internet;trpc;main;daemon;server;crypto;currency;snap;snapcraft;
+Name[de_DE]=trpcd-resync.desktop.desktop

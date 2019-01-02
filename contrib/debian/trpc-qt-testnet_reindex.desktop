@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Trpc-Qt Testnet (Reindex)
+Comment=Trpc P2P gaming related cryptocurrency - TESTNETWORK
+Comment[fr]=Trpc testnet, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Trpc testnet, eşten eşe kriptografik sanal para birimi
+Exec=trpc-qt --testnet --reindex %u
+Terminal=false
+Type=Application
+Icon=trpc128-testnet
+MimeType=x-scheme-handler/trpc;
+Categories=Office;Finance;
